@@ -15,6 +15,7 @@ body {
 /* Background: Gradiente > Ruido > Capa */
     background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 
@@ -77,11 +78,58 @@ nav.navbar-transparent {
   .btn-branco:hover {
     background-color: white;
     color: black;
+    font-weight: 700;
+    transition: font-weight, 0.6s;
+  }
+
+  /* Estrutura de conteudos
+  Área Serviços
+  --------------- */
+  .caixa {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  #servicos {
+    background: white;
+  }
+
+  #servicos h2, h3 {
+    color: #7c35f8;
+  }
+
+  #servicos p {
+    color: black;
+  }
+
+  .albuns {
+    padding-top: 10px;
   }
 
 
+  /* Área Recursos */ 
+  .caixa {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
 
-  /* Tipografica */
+  #recursos h2, p {
+    color: #fff;
+  }
+
+  #recursos h3 {
+    color: #9bf0e1;
+  }
+
+  .rotacionar {
+    -ms-transform: rotate(30deg); /*  IE 9  */
+    -webkit-transform: rotate(30deg); /* Chrome, Safari, Opera */
+    -moz-transform: rotate(30deg); /* Firefox */
+    transform: rotate(30deg);
+    padding-left: 55px;
+  }
+  
+  /* Tipografia */
   h1 {
     font-weight: 900;
     letter-spacing: -0.05em;
@@ -89,6 +137,18 @@ nav.navbar-transparent {
     margin-bottom: 50px;
   }
 
+  h2 {
+    font-weight: 700;
+    font-size: 3em;
+    letter-spacing: -0.04em;
+  }
+
+  h3 {
+    font-weight: 700;
+    font-size: 2em;
+    letter-spacing: -0.04em;
+  }
+  
 
   /* MEDIA QUERY */
 
