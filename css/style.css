@@ -128,7 +128,40 @@ nav.navbar-transparent {
     transform: rotate(30deg);
     padding-left: 55px;
   }
-  
+
+
+  /* FOOTER */
+  footer {
+    background: #000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+  }
+
+  footer h4 {
+    color: #919496;
+    font-size: 0.8em;
+    text-transform: uppercase;
+  }
+
+  footer .navbar-nav a {
+    font-size: 0.8em;
+    color: #fff;
+  }
+
+  footer .navbar-nav a:hover {
+    color: #9bf0e1;
+    text-decoration: none;
+  }
+
+  footer .redes-sociais {
+    float: right;
+    color: #fff;
+    font-size: 40px;
+    list-style: none;
+    margin: 7px;
+  }
+
+
   /* Tipografia */
   h1 {
     font-weight: 900;
