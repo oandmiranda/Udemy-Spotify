@@ -1,1 +1,3 @@
-Projeto em progresso !
+#Projeto Spotify
+
+Projeto responsivo aplicando conhecimentos de Html, Css e Boostrap ! 
